@@ -72,7 +72,26 @@ body {
   max-width: 990px;
   padding: 0 15px;
 }
-
+@media (min-width: 768px) {
+  .container{
+    width: 768px;
+  }
+}
+@media (min-width: 939px) {
+  .container{
+    width: 939px;
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    width: 990px;
+  }
+}
 ol, ul {
   list-style: none;
 }
@@ -100,6 +119,9 @@ $color-blue : #00285c;
 }
 @media (min-width: 641px){
 	.mobile-show{
+		display: none !important;
+	}
+	.img-mobile{
 		display: none !important;
 	}
 }

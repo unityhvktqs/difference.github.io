@@ -53,6 +53,42 @@ $(document).ready(function(){
 	});
 });
 
+/* check mobile device */
+$(document).ready(function(){
+	    var width = $(window).width();
+
+	    if (width <= 1199){
+	    	$('body').addClass('responsive_1199');
+	    }
+	    else{
+	    	$('body').removeClass('responsive_1199');
+	    }
+	    if (width <= 1250){
+	    	$('body').addClass('responsive_1250');
+	    }
+	    else{
+	    	$('body').removeClass('responsive_1250');
+	    }
+	    if (width <= 991){
+	    	$('body').addClass('responsive_991');
+	    }
+	    else{
+	    	$('body').removeClass('responsive_991');
+	    }
+	    if (width <= 767){
+	        $('body').addClass('responsive_767');
+	    }
+	    else{
+	        $('body').removeClass('responsive_767');
+	    }
+	    if (width <= 640){
+	        $('body').addClass('responsive_640');
+	    }
+	    else{
+	        $('body').removeClass('responsive_640');
+	    }
+});
+
 
 /* go to top */
 document.getElementById('go-to-top').addEventListener("click", function(){
