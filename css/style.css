@@ -223,8 +223,10 @@ a {
           background: #E7F0F7;
           float: left;
           display: inline-block;
-          border-radius: 5px 0 0 5px; }
+          border-radius: 5px 0 0 5px;
+          max-height: 84px; }
         #banner .banner-slide ul li a .new-release .info {
+          max-height: 84px;
           padding: 15px 25px;
           background: #fff;
           display: inline-block;
