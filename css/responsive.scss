@@ -183,10 +183,12 @@
 				margin: 0 10px 0 0;
 				a{
 					padding: 0 15px;
+					font-size: 10px;
 				}
 			}
 		}
 		.right{
+			font-size: 10px;
 			a{
 				margin: 0 0 0 10px;
 			}
@@ -500,7 +502,9 @@
     		}
     	}
     	.right{
-    		display: none;
+    		img{
+    			max-width: 110px;
+    		}
     	}
     }
 
@@ -692,6 +696,22 @@
 					}
 				}
 			}
+		}
+	}
+
+	#note{
+		padding-left: 10px;
+		.left{
+			div{
+				&:last-child{
+					a{
+						border:0;
+					}
+				}
+			}
+		}
+		.right{
+			display: none !important;
 		}
 	}
 }

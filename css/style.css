@@ -53,18 +53,6 @@ body {
   max-width: 990px;
   padding: 0 15px; }
 
-/* @media (min-width: 768px) {
-  .container {
-    width: 768px; } }
-@media (min-width: 939px) {
-  .container {
-    width: 939px; } }
-@media (min-width: 992px) {
-  .container {
-    width: 970px; } }
-@media (min-width: 1200px) {
-  .container {
-    width: 990px; } } */
 ol, ul {
   list-style: none; }
 
@@ -233,12 +221,14 @@ a {
           padding: 10px 53px;
           background: #E7F0F7;
           float: left;
-          display: inline-block; }
+          display: inline-block;
+          border-radius: 5px 0 0 5px; }
         #banner .banner-slide ul li a .new-release .info {
-          padding: 15px 25px;
+          padding: 16px 25px;
           background: #fff;
           display: inline-block;
-          text-align: left; }
+          text-align: left;
+          border-radius: 0 5px 5px 0; }
           #banner .banner-slide ul li a .new-release .info::after {
             position: absolute;
             content: "";
@@ -337,7 +327,7 @@ a {
           cursor: pointer; }
       .phone ul li .phone-item .content {
         margin: 40px 0 0;
-        padding: 0 17px; }
+        padding: 0 15px; }
         .phone ul li .phone-item .content p {
           font-size: 24px;
           color: #07295c;
@@ -522,7 +512,9 @@ a {
       color: #00285c;
       margin: 0 0 10px; }
     .information .title span {
-      color: #00285c; }
+      color: #00285c;
+      font-family: 'HiraKakuStd W3';
+      font-size: 14px; }
   .information .info-right {
     width: 75%;
     float: right; }
@@ -532,9 +524,13 @@ a {
       margin: 0 0 10px; }
       .information .info-right li .date {
         color: #999;
-        margin: 0 24px 0 0; }
-      .information .info-right li .links {
-        color: #00285c; }
+        margin: 0 24px 0 0;
+        font-family: 'HiraKakuStd W3';
+        font-size: 14px; }
+      .information .info-right li .links a {
+        color: #00285c;
+        font-size: 14px;
+        font-family: 'HiraKakuStd W3'; }
 
 #note {
   display: inline-block;
@@ -550,15 +546,17 @@ a {
       display: inline-block;
       margin: 0 20px 0 0; }
       #note .left div:last-child a {
-        border: 0; }
-      #note .left div:last-child a {
-        border-radius: 5px; }
+        border-radius: 5px;
+        border: 1px solid #00285c; }
       #note .left div a {
         line-height: 44px;
         display: inline-block;
         padding: 0 22px;
         border: 1px solid #00285c;
-        border-radius: 0 5px 5px 0; }
+        border-radius: 0 5px 5px 0;
+        font-size: 14px;
+        color: #00285c;
+        font-family: 'HiraKakuStd W3'; }
         #note .left div a.active {
           background: #00285c;
           border-radius: 5px 0 0 5px;
@@ -570,7 +568,10 @@ a {
   #note .right {
     float: right;
     align-items: center;
-    display: flex; }
+    display: flex;
+    font-family: 'HiraKakuStd W3';
+    color: #000;
+    font-size: 14px; }
     #note .right a {
       margin: 0 0 0 20px; }
 
@@ -597,7 +598,9 @@ a {
     line-height: 18px;
     display: inline-block;
     font-size: 0.8rem;
-    line-height: 1rem; }
+    line-height: 1rem;
+    font-family: 'HiraKakuStd W3';
+    color: #00285c; }
 
 #footer {
   background: #031228;
@@ -614,11 +617,13 @@ a {
         font-family: 'HiraKakuStd W3';
         margin: 0 0 10px; }
         #footer .footer-top .sitemap ul li:first-child {
-          color: #999; }
+          color: #999;
+          font-size: 14px; }
         #footer .footer-top .sitemap ul li a {
           color: #fff;
           position: relative;
-          padding: 0 0 0 11px; }
+          padding: 0 0 0 11px;
+          font-size: 14px; }
           #footer .footer-top .sitemap ul li a::after {
             position: absolute;
             left: 0;
@@ -637,7 +642,8 @@ a {
       #footer .footer-bottom .left span {
         color: #999;
         font-family: 'HelveticaNeueLTStd Roman';
-        margin: 0 15px 0 0; }
+        margin: 0 15px 0 0;
+        font-size: 14px; }
       #footer .footer-bottom .left ul {
         display: inline-block; }
         #footer .footer-bottom .left ul li {

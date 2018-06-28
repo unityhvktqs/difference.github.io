@@ -72,26 +72,7 @@ body {
   max-width: 990px;
   padding: 0 15px;
 }
-@media (min-width: 768px) {
-  .container{
-    width: 768px;
-  }
-}
-@media (min-width: 939px) {
-  .container{
-    width: 939px;
-  }
-}
-@media (min-width: 992px) {
-  .container{
-    width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container{
-    width: 990px;
-  }
-}
+
 ol, ul {
   list-style: none;
 }
@@ -320,12 +301,14 @@ $color-blue : #00285c;
 							background: #E7F0F7;
 							float: left;
 							display: inline-block;
+							border-radius: 5px 0 0 5px;
 						}
 						.info{
-							padding: 15px 25px;
+							padding: 16px 25px;
 							background: #fff;
 							display: inline-block;
 							text-align: left;
+							border-radius: 0 5px 5px 0;
 
 							&::after{
 								position: absolute;
@@ -463,7 +446,7 @@ $color-blue : #00285c;
 				}
 				.content{
 					margin: 40px 0 0;
-					padding: 0 17px;
+					padding: 0 15px;
 
 					p{
 						font-size: 24px;
@@ -733,6 +716,8 @@ $color-blue : #00285c;
 		}
 		span{
 			color: $color-blue;
+			font-family: 'HiraKakuStd W3';
+			font-size: 14px;
 		}
 	}
 	.info-right{
@@ -745,9 +730,15 @@ $color-blue : #00285c;
 			.date{
 				color: #999;
 				margin: 0 24px 0 0;
+				font-family: 'HiraKakuStd W3';
+				font-size: 14px;
 			}
 			.links{
-				color: $color-blue;
+				a{
+					color: $color-blue;
+					font-size: 14px;
+					font-family: 'HiraKakuStd W3';
+				}
 			}
 		}
 	}
@@ -770,13 +761,8 @@ $color-blue : #00285c;
 			margin: 0 20px 0 0;
 			&:last-child{
 				a{
-					border:0;
-				}
-			}
-
-			&:last-child{
-				a{
 					border-radius: 5px;
+					border: 1px solid $color-blue;
 				}
 			}
 			a{
@@ -785,6 +771,9 @@ $color-blue : #00285c;
 				padding: 0 22px;
 				border: 1px solid $color-blue;
 				border-radius: 0 5px 5px 0;
+				font-size: 14px;
+				color:  $color-blue;
+				font-family: 'HiraKakuStd W3';
 
 				&.active{
 					background: $color-blue;
@@ -804,6 +793,9 @@ $color-blue : #00285c;
 		float: right;
 		align-items: center;
 		display: flex;
+		font-family: 'HiraKakuStd W3';
+		color: #000;
+		font-size: 14px;
 
 		a{
 			margin: 0 0 0 20px;
@@ -835,6 +827,8 @@ $color-blue : #00285c;
 		display: inline-block;
 		font-size: 0.8rem;
 		line-height: 1rem;
+		font-family: 'HiraKakuStd W3';
+		color: $color-blue;
 	}
 }
 
@@ -857,11 +851,13 @@ $color-blue : #00285c;
 					margin: 0 0 10px;
 					&:first-child{
 						color: #999;
+						font-size: 14px;
 					}
 					a{
 						color: #fff;
 						position: relative;
 						padding: 0 0 0 11px;
+						font-size: 14px;
 						&::after{
 							position: absolute;
 							left: 0;
@@ -889,6 +885,7 @@ $color-blue : #00285c;
 				color: #999;
 				font-family: 'HelveticaNeueLTStd Roman';
 				margin: 0 15px 0 0;
+				font-size: 14px;
 			}
 			ul{
 				display: inline-block;
