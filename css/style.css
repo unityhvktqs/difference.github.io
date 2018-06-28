@@ -191,7 +191,8 @@ a {
   width: 100%; }
   #banner .banner-slide ul li {
     height: 548px;
-    text-align: center; }
+    text-align: center;
+    background-size: 100% 100% !important; }
     #banner .banner-slide ul li a {
       text-align: center;
       position: relative;

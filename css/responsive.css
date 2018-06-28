@@ -30,15 +30,19 @@
 .responsive_991 #header-container .shipping-date span.day {
   font-size: 15px;
   line-height: 26px; }
-.responsive_991 #banner .banner-slide ul li a .banner-info h2 {
-  font-size: 30px;
-  line-height: 50px; }
-.responsive_991 #banner .banner-slide ul li a .banner-info .btn-play img {
-  width: 100px; }
-.responsive_991 #banner .banner-slide ul li a .new-release {
-  left: 20px; }
-  .responsive_991 #banner .banner-slide ul li a .new-release .info .content {
-    font-size: 10px; }
+.responsive_991 #banner .banner-slide ul li {
+  height: 375px; }
+  .responsive_991 #banner .banner-slide ul li a {
+    height: 375px; }
+    .responsive_991 #banner .banner-slide ul li a .banner-info h2 {
+      font-size: 30px;
+      line-height: 50px; }
+    .responsive_991 #banner .banner-slide ul li a .banner-info .btn-play img {
+      width: 100px; }
+    .responsive_991 #banner .banner-slide ul li a .new-release {
+      left: 20px; }
+      .responsive_991 #banner .banner-slide ul li a .new-release .info .content {
+        font-size: 10px; }
 .responsive_991 .phone ul li .phone-item .content p {
   font-size: 15px; }
 .responsive_991 .phone ul li .phone-item .content span {
