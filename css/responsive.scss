@@ -25,6 +25,12 @@
 			ul{
 				li{
 					a{
+						.banner-info{
+							h2{
+								font-size: 30px;
+    							line-height: 50px;
+							}
+						}
 						.new-release{
 							.img{
 								height: 75px;
@@ -83,9 +89,7 @@
 		.banner-slide{
 			ul{
 				li{
-					height: 375px;
 					a{
-						height: 375px;
 						.banner-info{
 							h2{
 								font-size: 30px;
@@ -287,12 +291,11 @@
 					a{
 						.banner-info{
 							h2{
-								font-size: 32px;
-								line-height: 50px;
+								margin: 0;
 							}
 							.btn-play{
 								img{
-									width: 120px;
+									width: 90px;
 								}
 							}
 						}
